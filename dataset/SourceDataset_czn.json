@@ -1,0 +1,209 @@
+{
+	"name": "SourceDataset_czn",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Stage2_Dealer_Master.csv",
+				"container": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Dealer_No.",
+				"type": "String"
+			},
+			{
+				"name": "Dealer_Code",
+				"type": "String"
+			},
+			{
+				"name": "Group_Dealer_Code",
+				"type": "String"
+			},
+			{
+				"name": "Company_No.",
+				"type": "String"
+			},
+			{
+				"name": "Corporation_No.",
+				"type": "String"
+			},
+			{
+				"name": "EMP_NO",
+				"type": "String"
+			},
+			{
+				"name": "DORG_SCTN_TYPE",
+				"type": "String"
+			},
+			{
+				"name": "Dealer_Key",
+				"type": "String"
+			},
+			{
+				"name": "Dealer_Map_Key",
+				"type": "String"
+			},
+			{
+				"name": "DORG_ORG_DSCTN",
+				"type": "String"
+			},
+			{
+				"name": "DORG_CLS_CODE",
+				"type": "String"
+			},
+			{
+				"name": "DORG_MNGR_NAME",
+				"type": "String"
+			},
+			{
+				"name": "DORG_CNTRY_CODE",
+				"type": "String"
+			},
+			{
+				"name": "DORG_RGN_CODE_DEL",
+				"type": "String"
+			},
+			{
+				"name": "DORG_STCD_CODE",
+				"type": "String"
+			},
+			{
+				"name": "DORG_CITY_CODE",
+				"type": "String"
+			},
+			{
+				"name": "DORG_EMAIL",
+				"type": "String"
+			},
+			{
+				"name": "DORG_DLR_TYPE",
+				"type": "String"
+			},
+			{
+				"name": "Dealer Name",
+				"type": "String"
+			},
+			{
+				"name": "DORG_WRK_PROFILE",
+				"type": "String"
+			},
+			{
+				"name": "DORG_STATUS",
+				"type": "String"
+			},
+			{
+				"name": "State",
+				"type": "String"
+			},
+			{
+				"name": "City",
+				"type": "String"
+			},
+			{
+				"name": "Region1",
+				"type": "String"
+			},
+			{
+				"name": "DORG_DLR_GRADE",
+				"type": "String"
+			},
+			{
+				"name": "DORG_WRKSHOP_TYPE",
+				"type": "String"
+			},
+			{
+				"name": "DORG_SCTN_SUB_TYPE",
+				"type": "String"
+			},
+			{
+				"name": "DORG_GRP_CITY_CODE",
+				"type": "String"
+			},
+			{
+				"name": "DORG_CITY_CATEGORY",
+				"type": "String"
+			},
+			{
+				"name": "DORG_LATITUDE",
+				"type": "String"
+			},
+			{
+				"name": "DORG_LONGITUDE",
+				"type": "String"
+			},
+			{
+				"name": "DORG_SPR_DLR_CODE",
+				"type": "String"
+			},
+			{
+				"name": "DORG_MAIN_DLR_YN",
+				"type": "String"
+			},
+			{
+				"name": "DORG_PREV_DLR_CODE",
+				"type": "String"
+			},
+			{
+				"name": "I2S_Main_Dealer",
+				"type": "String"
+			},
+			{
+				"name": "DORG_SALE_DISTRICT",
+				"type": "String"
+			},
+			{
+				"name": "Region",
+				"type": "String"
+			},
+			{
+				"name": "Dealers",
+				"type": "String"
+			},
+			{
+				"name": "Area Manager",
+				"type": "String"
+			},
+			{
+				"name": "DLRM_CMPN_NO",
+				"type": "String"
+			},
+			{
+				"name": "DLRM_CORP_NO",
+				"type": "String"
+			},
+			{
+				"name": "DLRM_SPR_DLR_CODE",
+				"type": "String"
+			},
+			{
+				"name": "DLRM_DLR_DSCTN",
+				"type": "String"
+			},
+			{
+				"name": "DLRM_MAIN_DLR_YN",
+				"type": "String"
+			},
+			{
+				"name": "DLRM_BRCH_SEQ_NO",
+				"type": "String"
+			},
+			{
+				"name": "DLRM_PREV_DLR_CODE",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

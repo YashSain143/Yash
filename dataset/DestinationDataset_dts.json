@@ -1,0 +1,17 @@
+{
+	"name": "DestinationDataset_dts",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Stage2_Sales_Employee_Master"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
