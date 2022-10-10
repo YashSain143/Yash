@@ -38,7 +38,8 @@
 					},
 					"sink": {
 						"type": "AzureSqlSink",
-						"tableOption": "autoCreate"
+						"writeBehavior": "insert",
+						"sqlWriterUseTableLock": false
 					},
 					"enableStaging": false,
 					"validateDataConsistency": false,
@@ -561,13 +562,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "SourceDataset_czn",
+						"referenceName": "inputcsv",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "DestinationDataset_czn",
+						"referenceName": "output_table",
 						"type": "DatasetReference"
 					}
 				]

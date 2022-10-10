@@ -1,0 +1,201 @@
+{
+	"name": "output_table",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "outputdatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Dealer_No.",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Dealer_Code",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Group_Dealer_Code",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Company_No.",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Corporation_No.",
+				"type": "nvarchar"
+			},
+			{
+				"name": "EMP_NO",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_SCTN_TYPE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Dealer_Key",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Dealer_Map_Key",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_ORG_DSCTN",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_CLS_CODE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_MNGR_NAME",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_CNTRY_CODE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_RGN_CODE_DEL",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_STCD_CODE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_CITY_CODE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_EMAIL",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_DLR_TYPE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Dealer Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_WRK_PROFILE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_STATUS",
+				"type": "nvarchar"
+			},
+			{
+				"name": "State",
+				"type": "nvarchar"
+			},
+			{
+				"name": "City",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Region1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_DLR_GRADE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_WRKSHOP_TYPE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_SCTN_SUB_TYPE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_GRP_CITY_CODE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_CITY_CATEGORY",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_LATITUDE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_LONGITUDE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_SPR_DLR_CODE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_MAIN_DLR_YN",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_PREV_DLR_CODE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "I2S_Main_Dealer",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DORG_SALE_DISTRICT",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Region",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Dealers",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Area Manager",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DLRM_CMPN_NO",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DLRM_CORP_NO",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DLRM_SPR_DLR_CODE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DLRM_DLR_DSCTN",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DLRM_MAIN_DLR_YN",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DLRM_BRCH_SEQ_NO",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DLRM_PREV_DLR_CODE",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Stage2_Dealer_Masterr"
+		}
+	}
+}
