@@ -40,8 +40,482 @@
 						"type": "AzureSqlSink",
 						"tableOption": "autoCreate"
 					},
-					"enableStaging": false
-				}
+					"enableStaging": false,
+					"validateDataConsistency": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "EMPM_CMPN_NO",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_CMPN_NO",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_CORP_NO",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_CORP_NO",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Dealer_No.",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Dealer_No.",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_EMP_NO",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_EMP_NO",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_SCTN_TYPE",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_SCTN_TYPE",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Employee Department",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Employee Department",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_EMP_TYPE",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_EMP_TYPE",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Employee Type",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Employee Type",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_EMP_NAME",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_EMP_NAME",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_COMP_EMAIL",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_COMP_EMAIL",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_JOIN_DATE",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_JOIN_DATE",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_LEAVE_DATE",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_LEAVE_DATE",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_SEX_TYPE",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_SEX_TYPE",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Employee Gender",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Employee Gender",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_DSITN_CODE",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_DSITN_CODE",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Employee Designation",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Employee Designation",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_CRTE_EMP_NO",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_CRTE_EMP_NO",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_CRTE_DTIME",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_CRTE_DTIME",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_UPDT_EMP_NO",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_UPDT_EMP_NO",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_UPDT_DTIME",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_UPDT_DTIME",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_FIRST_NAME",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_FIRST_NAME",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_LAST_NAME",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_LAST_NAME",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_PRIV_EMAIL",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_PRIV_EMAIL",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_AREA_WORK_CODE",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_AREA_WORK_CODE",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Area of Work",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Area of Work",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_BRITH_DATE",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_BRITH_DATE",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_MARR_DATE",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_MARR_DATE",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_MARR_YN",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_MARR_YN",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_DEPT_CODE",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_DEPT_CODE",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Active/Inactive",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Active/Inactive",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_HMI_YN",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_HMI_YN",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_PAN_NO",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_PAN_NO",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "IFRESULT",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "IFRESULT",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_SC_CODE",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_SC_CODE",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_AADHAR_NO",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_AADHAR_NO",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_AADHAR_CERT_DTIME",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_AADHAR_CERT_DTIME",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_FILE_DOC_NO",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_FILE_DOC_NO",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EMPM_CTGR_CODE",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "EMPM_CTGR_CODE",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Employee Category",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Employee Category",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "LEAVING_REASON",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "LEAVING_REASON",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "LEAVING_REMARS",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "LEAVING_REMARS",
+									"type": "String"
+								}
+							}
+						],
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": false
+						}
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "SourceDataset_dts",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "DestinationDataset_dts",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		],
 		"annotations": [],

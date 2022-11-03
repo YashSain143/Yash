@@ -1,0 +1,17 @@
+{
+	"name": "DestinationDataset_czn",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Stage2_Dealer_Masterr"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
