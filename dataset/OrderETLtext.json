@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText1",
+	"name": "OrderETLtext",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ADLS",
