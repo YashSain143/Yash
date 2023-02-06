@@ -1,0 +1,9 @@
+{
+	"name": "Dataafactory143",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "536c0ca9-7c45-4046-b5bb-76e2fe07266a",
+		"tenantId": "90d12e33-ad5e-4e82-8b5e-82bff0658ae0"
+	}
+}
