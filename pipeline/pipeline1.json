@@ -22,8 +22,21 @@
 					},
 					"method": "POST",
 					"body": {
-						"email": "yash.jain@teamcomputers.com",
+						"email": "Developer5@gmail.com",
 						"password": 123456
+					},
+					"authentication": {
+						"type": "Basic",
+						"username": "yashsain143",
+						"password": {
+							"type": "AzureKeyVaultSecret",
+							"store": {
+								"referenceName": "AzureKeyVault1",
+								"type": "LinkedServiceReference"
+							},
+							"secretName": "SecrateName143",
+							"secretVersion": "SecrateVersion143"
+						}
 					}
 				}
 			}
